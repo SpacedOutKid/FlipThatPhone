@@ -1,2 +1,2 @@
-# Flipping Flipping Assitant
+# Flipping Items Assitant
 This is a program that speeds up and automates my phone flipping and other items proccess. Instead of going into an excell sheet or crunching numbers this program does it all for me and tells me the price of the phone I should buy at based on numerous factors
