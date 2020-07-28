@@ -28,20 +28,24 @@ class GradingScale():
 #This is a class that stores the average sale price of each phone
 class AverageSalePrice():
     #iPhone 7 Average Sale Prices
-    _iPhone7UL32GbAverage = usedIphoneSheet['C19'].value #Cell position for an average price of an 32gb unlocked iPhone 7
-    _iPhone7UL128GbAverage = usedIphoneSheet['C20'].value #Cell position for an average price of an 128gb unlocked iPhone 7
-    _iPhone7UL256GbAverage = usedIphoneSheet['C21'].value #Cell position for an average price of an 256gb unlocked iPhone 7
-    _iPhone7L32GbAverage = usedIphoneSheet['C22'].value #Cell position for an average price of an 32gb locked iPhone 7
-    _iPhone7L128GbAverage = usedIphoneSheet['C23'].value #Cell position for an average price of an 128gb locked iPhone 7
-    _iPhone7L256GbAverage = usedIphoneSheet['C24'].value #Cell position for an average price of an 256gb locked iPhone 7
+    _iPhone7UL32GbAverage = usedIphoneSheet['C19'].value #Cell position for an average price of a 32gb unlocked iPhone 7
+    _iPhone7UL128GbAverage = usedIphoneSheet['C20'].value #Cell position for an average price of a 128gb unlocked iPhone 7
+    _iPhone7UL256GbAverage = usedIphoneSheet['C21'].value #Cell position for an average price of a 256gb unlocked iPhone 7
+    _iPhone7L32GbAverage = usedIphoneSheet['C22'].value #Cell position for an average price of a 32gb locked iPhone 7
+    _iPhone7L128GbAverage = usedIphoneSheet['C23'].value #Cell position for an average price of a 128gb locked iPhone 7
+    _iPhone7L256GbAverage = usedIphoneSheet['C24'].value #Cell position for an average price of a 256gb locked iPhone 7
     #iPhone 7 Plus Average Sale Prices
-    _iPhone7PlusUL32GbAverage = usedIphoneSheet['C28'].value #Cell position for an average price of an 32gb unlocked iPhone 7 Plus
-    _iPhone7PlusUL128GbAverage = usedIphoneSheet['C29'].value #Cell position for an average price of an 128gb unlocked iPhone 7 Plus
-    _iPhone7PlusUL256GbAverage = usedIphoneSheet['C30'].value #Cell position for an average price of an 256gb unlocked iPhone 7 Plus
-    _iPhone7PlusL32GbAverage = usedIphoneSheet['C31'].value #Cell position for an average price of an 32gb locked iPhone 7 Plus
-    _iPhone7PlusL128GbAverage = usedIphoneSheet['C32'].value #Cell position for an average price of an 128gb locked iPhone 7 Plus
-    _iPhone7PlusL256GbAverage = usedIphoneSheet['C33'].value #Cell position for an average price of an 256gb locked iPhone 7 Plus
-
+    _iPhone7PlusUL32GbAverage = usedIphoneSheet['C28'].value #Cell position for an average price of a 32gb unlocked iPhone 7 Plus
+    _iPhone7PlusUL128GbAverage = usedIphoneSheet['C29'].value #Cell position for an average price of a 128gb unlocked iPhone 7 Plus
+    _iPhone7PlusUL256GbAverage = usedIphoneSheet['C30'].value #Cell position for an average price of a 256gb unlocked iPhone 7 Plus
+    _iPhone7PlusL32GbAverage = usedIphoneSheet['C31'].value #Cell position for an average price of a 32gb locked iPhone 7 Plus
+    _iPhone7PlusL128GbAverage = usedIphoneSheet['C32'].value #Cell position for an average price of a 128gb locked iPhone 7 Plus
+    _iPhone7PlusL256GbAverage = usedIphoneSheet['C33'].value #Cell position for an average price of a 256gb locked iPhone 7 Plus
+    #iPhone 8 Average Sale Prices
+    _iPhone8UL64GbAverage = usedIphoneSheet['C37'].value #Cell Position for an average price of a 64Gb unlocked iPhone 8
+    _iPhone8UL256GbAverage = usedIphoneSheet['C38'].value #Cell Position for an average price of a 256Gb unlocked iPhone 8
+    _iPhone8L64GbAverage = usedIphoneSheet['C39'].value #Cell Position for an average price of a 64Gb locked iPhone 8
+    _iPhone8L256GbAverage = usedIphoneSheet['C40'].value #Cell Position for an average price of a 256Gb locked iPhone 8
 #This is a class that stores the cell positions for the phone prices 
 class CellPositions():
     #Unlocked & Locked iPhone 7 Prices
@@ -142,7 +146,39 @@ class CellPositions():
    _iPhone7PlusL256GbCLow= usedIphoneSheet['I33'].value #Cell position for C Grade Low offer of an iPhone 7 Plus locked 256Gb
    _iPhone7PlusL256GbDHigh = usedIphoneSheet['J33'].value #Cell position for D Grade High offer of an iPhone 7 Plus locked 256Gb
    _iPhone7PlusL256GbDLow = usedIphoneSheet['K33'].value #Cell position for D Grade Low offer of an iPhone 7 Plus locked 256Gb
-
+   #unlocked & Locked iPhone 8 Prices
+   _iPhone8UL64GbAHigh = usedIphoneSheet['D37'].value #Cell position for A Grade High of a iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbALow = usedIphoneSheet['E37'].value #Cell position for A Grade Low of a iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbBHigh = usedIphoneSheet['F37'].value #Cell position for B Grade High of a iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbBLow= usedIphoneSheet['G37'].value #Cell position for B Grade Low of a iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbCHigh = usedIphoneSheet['H37'].value #Cell position for C Grade High of an iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbCLow= usedIphoneSheet['I37'].value #Cell position for C Grade Low of an iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbDHigh = usedIphoneSheet['J37'].value #Cell position for D Grade High of an iPhone 8 Unlocked 64Gb
+   _iPhone8UL64GbDLow = usedIphoneSheet['K37'].value #Cell position for D Grade Low of an iPhone 8 Unlocked 64Gb
+   _iPhone8UL256GbAHigh = usedIphoneSheet['D38'].value #Cell position for A Grade High of a iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbALow = usedIphoneSheet['E38'].value #Cell position for A Grade Low of a iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbBHigh = usedIphoneSheet['F38'].value #Cell position for B Grade High of a iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbBLow= usedIphoneSheet['G38'].value #Cell position for B Grade Low of a iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbCHigh = usedIphoneSheet['H38'].value #Cell position for C Grade High of an iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbCLow= usedIphoneSheet['I38'].value #Cell position for C Grade Low of an iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbDHigh = usedIphoneSheet['J38'].value #Cell position for D Grade High of an iPhone 8 Unlocked 256Gb
+   _iPhone8UL256GbDLow = usedIphoneSheet['K38'].value #Cell position for D Grade Low of an iPhone 8 Unlocked 256Gb
+   _iPhone8L64GbAHigh = usedIphoneSheet['D39'].value #Cell position for A Grade High of a iPhone 8 locked 64Gb
+   _iPhone8L64GbALow = usedIphoneSheet['E39'].value #Cell position for A Grade Low of a iPhone 8 locked 64Gb
+   _iPhone8L64GbBHigh = usedIphoneSheet['F39'].value #Cell position for B Grade High of a iPhone 8 locked 64Gb
+   _iPhone8L64GbBLow= usedIphoneSheet['G39'].value #Cell position for B Grade Low of a iPhone 8 locked 64Gb
+   _iPhone8L64GbCHigh = usedIphoneSheet['H39'].value #Cell position for C Grade High of an iPhone 8 locked 64Gb
+   _iPhone8L64GbCLow= usedIphoneSheet['I39'].value #Cell position for C Grade Low of an iPhone 8 locked 64Gb
+   _iPhone8L64GbDHigh = usedIphoneSheet['J39'].value #Cell position for D Grade High of an iPhone 8 locked 64Gb
+   _iPhone8L64GbDLow = usedIphoneSheet['K39'].value #Cell position for D Grade Low of an iPhone 8 locked 64Gb
+   _iPhone8L256GbAHigh = usedIphoneSheet['D40'].value #Cell position for A Grade High of a iPhone 8 locked 256Gb
+   _iPhone8L256GbALow = usedIphoneSheet['E40'].value #Cell position for A Grade Low of a iPhone 8 locked 256Gb
+   _iPhone8L256GbBHigh = usedIphoneSheet['F40'].value #Cell position for B Grade High of a iPhone 8 locked 256Gb
+   _iPhone8L256GbBLow= usedIphoneSheet['G40'].value #Cell position for B Grade Low of a iPhone 8 locked 256Gb
+   _iPhone8L256GbCHigh = usedIphoneSheet['H40'].value #Cell position for C Grade High of an iPhone 8 locked 256Gb
+   _iPhone8L256GbCLow= usedIphoneSheet['I40'].value #Cell position for C Grade Low of an iPhone 8 locked 256Gb
+   _iPhone8L256GbDHigh = usedIphoneSheet['J40'].value #Cell position for D Grade High of an iPhone 8 locked 256Gb
+   _iPhone8L256GbDLow = usedIphoneSheet['K40'].value #Cell position for D Grade Low of an iPhone 8 locked 256Gb
 
 
 
