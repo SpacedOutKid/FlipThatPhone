@@ -91,6 +91,13 @@ class AverageSalePrice():
     _iPhone11ProL64GbAverage = usedIphoneSheet['C98'].value #Cell position for an average price of a 64Gb unlocked iPhone 11 Pro
     _iPhone11ProL256GbAverage = usedIphoneSheet['C99'].value #Cell position for an average price of a 256Gb unlocked iPhone 11 Pro
     _iPhone11ProL512GbAverage = usedIphoneSheet['C100'].value #Cell position for an average price of a 512Gb unlocked iPhone 11 pro 
+     #iPhone 11 Pro Max Average Sales Price
+    _iPhone11ProMaxUL64GbAverage = usedIphoneSheet['C104'].value #Cell position for an average price of a 64Gb unlocked iPhone 11 Pro Max
+    _iPhone11PromaxUL256GbAverage = usedIphoneSheet['C105'].value #Cell position for an average price of a 256Gb unlocked iPhone 11 Pro Max
+    _iPhone11ProMaxUL512GbAverage = usedIphoneSheet['C106'].value #Cell position for an average price of a 512Gb unlocked iPhone 11 Pro Max
+    _iPhone11ProMaxL64GbAverage = usedIphoneSheet['C107'].value #Cell position for an average price of a 64Gb unlocked iPhone 11 Pro Max 
+    _iPhone11PromaxUL256GbAverage = usedIphoneSheet['C108'].value #Cell position for an average price of a 256Gb unlocked iPhone 11 Pro Max
+    _iPhone11ProL512GbAverage = usedIphoneSheet['C109'].value #Cell position for an average price of a 512Gb unlocked iPhone 11 pro Max 
 
 
 
@@ -502,7 +509,7 @@ class CellPositions():
    _iPhone11L256GbCLow = usedIphoneSheet['I91'].value #Cell position for C Grade Low of a unlocked iPhone 11 256Gb
    _iPhone11L256GbDHigh = usedIphoneSheet['J91'].value #Cell position for D Grade High of a unlocked iPhone 11 256Gb
    _iPhone11L256GbDLow = usedIphoneSheet['K91'].value #Cell position for D Grade Low of a unlocked iPhone 11 256Gb
-    #Unlocked and Locked iPhone XS Prices
+   #Unlocked and Locked iPhone 11 Pro Prices
    #
    _iPhone11Pro64GbAHigh = usedIphoneSheet['D95'].value #Cell position for A Grade High of a unlocked iPhone 11 Pro 64Gb
    _iPhone11Pro64GbALow = usedIphoneSheet['E95'].value #Cell position for A Grade Low of a unlocked iPhone 11 Pro 64Gb
@@ -544,7 +551,7 @@ class CellPositions():
    _iPhone11ProL256GbCLow = usedIphoneSheet['I99'].value #Cell position for C Grade Low of a locked iPhone 11 Pro 256Gb
    _iPhone11ProL256GbDHigh = usedIphoneSheet['J99'].value #Cell position for D Grade High of a locked iPhone 11 Pro 256Gb
    _iPhone11ProL256GbDLow = usedIphoneSheet['K99'].value #Cell position for D Grade Low of a locked iPhone 11 Pro 256Gb
-   _iPhone11ProL512GbAHigh = usedIphoneSheet['D100].value #Cell position for A Grade High of a locked iPhone 11 Pro 512Gb
+   _iPhone11ProL512GbAHigh = usedIphoneSheet['D100'].value #Cell position for A Grade High of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbALow = usedIphoneSheet['E100'].value #Cell position for A Grade Low of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbBHigh = usedIphoneSheet['F100'].value #Cell position for B Grade High of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbBLow = usedIphoneSheet['G100'].value #Cell position for B Grade Low of a ocked iPhone 11 Pro 512Gb
@@ -552,6 +559,56 @@ class CellPositions():
    _iPhone11ProL512GbCLow = usedIphoneSheet['I100'].value #Cell position for C Grade Low of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbDHigh = usedIphoneSheet['J100'].value #Cell position for D Grade High of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbDLow = usedIphoneSheet['K100'].value #Cell position for D Grade Low of a locked iPhone 11 Pro 512Gb
+   #Unlocked and Locked iPhone 11 Pro Prices
+   #
+   _iPhone11ProMax64GbAHigh = usedIphoneSheet['D104'].value #Cell position for A Grade High of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMax64GbALow = usedIphoneSheet['E104'].value #Cell position for A Grade Low of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxUL64GbBHigh = usedIphoneSheet['F104'].value #Cell position for B Grade High of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxUL64GbBLow = usedIphoneSheet['G104'].value #Cell position for B Grade Low of a unlocked iPhone 11 Pro Max  64Gb
+   _iPhone11ProMaxUL64GbCHigh = usedIphoneSheet['H104'].value #Cell position for C Grade High of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxUL64GbCLow = usedIphoneSheet['I104'].value #Cell position for C Grade Low of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMAxUL64GbDHigh = usedIphoneSheet['J104'].value #Cell position for D Grade High of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMAxUL64GbDLow = usedIphoneSheet['K104'].value #Cell position for D Grade Low of a unlocked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxUL256GbAHigh = usedIphoneSheet['D105'].value #Cell position for A Grade High of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbALow = usedIphoneSheet['E105'].value #Cell position for A Grade Low of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMAxUL256GbBHigh = usedIphoneSheet['F105'].value #Cell position for B Grade High of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbBLow = usedIphoneSheet['G105'].value #Cell position for B Grade Low of a unlocked iPhone1 1 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbCHigh = usedIphoneSheet['H104'].value #Cell position for C Grade High of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbCLow = usedIphoneSheet['I105'].value #Cell position for C Grade Low of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbDHigh = usedIphoneSheet['J105'].value #Cell position for D Grade High of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL256GbDLow = usedIphoneSheet['K105'].value #Cell position for D Grade Low of a unlocked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxUL512GbAHigh = usedIphoneSheet['D106'].value #Cell position for A Grade High of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbALow = usedIphoneSheet['E106'].value #Cell position for A Grade Low of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbBHigh = usedIphoneSheet['F106'].value #Cell position for B Grade High of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhon11ProMaxSUL512GbBLow = usedIphoneSheet['G106'].value #Cell position for B Grade Low of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbCHigh = usedIphoneSheet['H106'].value #Cell position for C Grade High of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbCLow = usedIphoneSheet['I106'].value #Cell position for C Grade Low of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbDHigh = usedIphoneSheet['J106'].value #Cell position for D Grade High of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxUL512GbDLow = usedIphoneSheet['K106'].value #Cell position for D Grade Low of a unlocked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL64GbAHigh = usedIphoneSheet['D107'].value #Cell position for A Grade High of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbALow = usedIphoneSheet['E107'].value #Cell position for A Grade Low of a locked iPhone 11 Pro max 64Gb
+   _iPhone11ProMaxL64GbBHigh = usedIphoneSheet['F107'].value #Cell position for B Grade High of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbBLow = usedIphoneSheet['G107'].value #Cell position for B Grade Low of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbCHigh = usedIphoneSheet['H107'].value #Cell position for C Grade High of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbCLow = usedIphoneSheet['I107'].value #Cell position for C Grade Low of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbDHigh = usedIphoneSheet['J107'].value #Cell position for D Grade High of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL64GbDLow = usedIphoneSheet['K107'].value #Cell position for D Grade Low of a locked iPhone 11 Pro Max 64Gb
+   _iPhone11ProMaxL256GbAHigh = usedIphoneSheet['D108'].value #Cell position for A Grade High of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbALow = usedIphoneSheet['E108'].value #Cell position for A Grade Low of a locked iPhone 11 Max 256Gb
+   _iPhone11ProMaxL256GbBHigh = usedIphoneSheet['F108'].value #Cell position for B Grade High of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbBLow = usedIphoneSheet['G108'].value #Cell position for B Grade Low of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbCHigh = usedIphoneSheet['H108'].value #Cell position for C Grade High of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbCLow = usedIphoneSheet['I108'].value #Cell position for C Grade Low of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbDHigh = usedIphoneSheet['J108'].value #Cell position for D Grade High of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL256GbDLow = usedIphoneSheet['K108'].value #Cell position for D Grade Low of a locked iPhone 11 Pro Max 256Gb
+   _iPhone11ProMaxL512GbAHigh = usedIphoneSheet['D109'].value #Cell position for A Grade High of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbALow = usedIphoneSheet['E109'].value #Cell position for A Grade Low of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbBHigh = usedIphoneSheet['F109'].value #Cell position for B Grade High of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbBLow = usedIphoneSheet['G109'].value #Cell position for B Grade Low of a ocked iPhone 11 Pro Max  512Gb
+   _iPhone11ProMaxL512GbCHigh = usedIphoneSheet['H109'].value #Cell position for C Grade High of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbCLow = usedIphoneSheet['I109'].value #Cell position for C Grade Low of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbDHigh = usedIphoneSheet['J109'].value #Cell position for D Grade High of a locked iPhone 11 Pro Max 512Gb
+   _iPhone11ProMaxL512GbDLow = usedIphoneSheet['K109'].value #Cell position for D Grade Low of a locked iPhone 11 Pro Max 512Gb
 
 #Main Source Code 
 supportedPhones = {0: 'Grading Scale 📝', 1: 'iPhone 7 📱', 2: 'iPhone 7 Plus 📱', 3: 'iPhone 8 📱', 4: 'iPhone 8 Plus 📱', 5: 'iPhone X 📱', 6: 'iPhone XR 📱', 7: 'iPhone XS 📱', 8: 'iPhone XS Max 📱', 9: 'iPhone 11 📱', 10: 'iPhone 11 Pro 📱', 11: 'iPhone 11 Pro Max 📱'} #list of phones to choose from
