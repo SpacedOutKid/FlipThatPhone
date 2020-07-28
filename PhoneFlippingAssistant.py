@@ -46,6 +46,12 @@ class AverageSalePrice():
     _iPhone8UL256GbAverage = usedIphoneSheet['C38'].value #Cell Position for an average price of a 256Gb unlocked iPhone 8
     _iPhone8L64GbAverage = usedIphoneSheet['C39'].value #Cell Position for an average price of a 64Gb locked iPhone 8
     _iPhone8L256GbAverage = usedIphoneSheet['C40'].value #Cell Position for an average price of a 256Gb locked iPhone 8
+    #iPhone 8 Plus
+    _iPhone8PlusUL64GbAverage = usedIphoneSheet['C44'].value #Cell Position for an average price of a 64Gb unlocked iPhone 8 Plus
+    _iPhone8PlusUL256GbAverage = usedIphoneSheet['C45'].value #Cell Position for an average price of a 256Gb unlocked iPhone 8 Plus
+    _iPhone8PlusL64GbAverage = usedIphoneSheet['C46'].value #Cell Position for an average price of a 64Gb locked iPhone 8 Plus
+    _iPhone8PlusL256GbAverage = usedIphoneSheet['C47'].value #Cell Position for an average price of a 256Gb locked iPhone 8 Plus
+
 #This is a class that stores the cell positions for the phone prices 
 class CellPositions():
     #Unlocked & Locked iPhone 7 Prices
@@ -179,8 +185,39 @@ class CellPositions():
    _iPhone8L256GbCLow= usedIphoneSheet['I40'].value #Cell position for C Grade Low of an iPhone 8 locked 256Gb
    _iPhone8L256GbDHigh = usedIphoneSheet['J40'].value #Cell position for D Grade High of an iPhone 8 locked 256Gb
    _iPhone8L256GbDLow = usedIphoneSheet['K40'].value #Cell position for D Grade Low of an iPhone 8 locked 256Gb
-
-
+#unlocked & locked iPhone 8 Plus Prices
+   _iPhone8PlusUL64GbAHigh = usedIphoneSheet['D44'].value #Cell position for A Grade High of a iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbALow = usedIphoneSheet['E44'].value #Cell position for A Grade Low of a iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbBHigh = usedIphoneSheet['F44'].value #Cell position for B Grade High of a iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbBLow= usedIphoneSheet['G44'].value #Cell position for B Grade Low of a iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbCHigh = usedIphoneSheet['H44'].value #Cell position for C Grade High of an iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbCLow= usedIphoneSheet['I44'].value #Cell position for C Grade Low of an iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbDHigh = usedIphoneSheet['J44'].value #Cell position for D Grade High of an iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL64GbDLow = usedIphoneSheet['K44'].value #Cell position for D Grade Low of an iPhone 8 Plus Unlocked 64Gb
+   _iPhone8PlusUL256GbAHigh = usedIphoneSheet['D45'].value #Cell position for A Grade High of a iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbALow = usedIphoneSheet['E45'].value #Cell position for A Grade Low of a iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbBHigh = usedIphoneSheet['F45'].value #Cell position for B Grade High of a iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbBLow= usedIphoneSheet['G45'].value #Cell position for B Grade Low of a iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbCHigh = usedIphoneSheet['H45'].value #Cell position for C Grade High of an iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbCLow= usedIphoneSheet['I45'].value #Cell position for C Grade Low of an iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbDHigh = usedIphoneSheet['J45'].value #Cell position for D Grade High of an iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusUL256GbDLow = usedIphoneSheet['K45'].value #Cell position for D Grade Low of an iPhone 8 Plus Unlocked 256Gb
+   _iPhone8PlusL64GbAHigh = usedIphoneSheet['D46'].value #Cell position for A Grade High of a iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbALow = usedIphoneSheet['E46'].value #Cell position for A Grade Low of a iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbBHigh = usedIphoneSheet['F46'].value #Cell position for B Grade High of a iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbBLow= usedIphoneSheet['G46'].value #Cell position for B Grade Low of a iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbCHigh = usedIphoneSheet['H46'].value #Cell position for C Grade High of an iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbCLow= usedIphoneSheet['I46'].value #Cell position for C Grade Low of an iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbDHigh = usedIphoneSheet['J46'].value #Cell position for D Grade High of an iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL64GbDLow = usedIphoneSheet['K46'].value #Cell position for D Grade Low of an iPhone 8 Plus locked 64Gb
+   _iPhone8PlusL256GbAHigh = usedIphoneSheet['D47'].value #Cell position for A Grade High of a iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbALow = usedIphoneSheet['E47'].value #Cell position for A Grade Low of a iPhone 8 Plus locked 256Gb
+   _iPhone8L256GbBHigh = usedIphoneSheet['F47'].value #Cell position for B Grade High of a iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbBLow= usedIphoneSheet['G47'].value #Cell position for B Grade Low of a iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbCHigh = usedIphoneSheet['H47'].value #Cell position for C Grade High of an iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbCLow= usedIphoneSheet['I47'].value #Cell position for C Grade Low of an iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbDHigh = usedIphoneSheet['J47'].value #Cell position for D Grade High of an iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbDLow = usedIphoneSheet['K47'].value #Cell position for D Grade Low of an iPhone 8 Plus locked 256Gb
 
 
 
