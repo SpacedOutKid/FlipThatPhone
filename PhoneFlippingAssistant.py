@@ -1,5 +1,5 @@
 #TEST TEST TEST TEST
-
+#Lets run the omes
 import openpyxl #imports the openpyxl module to be able to use and work with excel sheets
 path = 'PhoneFlippingGradingScale.xlsx' #this is the filename
 wb = openpyxl.load_workbook(path) #loads the excel sheet to be able to read from it
