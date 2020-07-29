@@ -615,8 +615,8 @@ class StorageSizes():
     _iPhone11ProStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
     _iPhone11ProMaxStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
 
-
 #Main Source Code 
+gradeOptions = {1: 'A Grade', 2: 'B Grade', 3: 'C Grade', 4: 'D Grade'}
 supportedPhones = {0: 'Grading Scale 📝', 1: 'iPhone 7 📱', 2: 'iPhone 7 Plus 📱', 3: 'iPhone 8 📱', 4: 'iPhone 8 Plus 📱', 5: 'iPhone X 📱', 6: 'iPhone XR 📱', 7: 'iPhone XS 📱', 8: 'iPhone XS Max 📱', 9: 'iPhone 11 📱', 10: 'iPhone 11 Pro 📱', 11: 'iPhone 11 Pro Max 📱'} #list of phones to choose from
 phoneOption = False #creates a variable for the following loop
 while phoneOption == False: #loop for the program to stay in so the user can continue or exit after checking on one phone
@@ -638,10 +638,22 @@ while phoneOption == False: #loop for the program to stay in so the user can con
             print('\nThank you for using this program')
             phoneOption = True
         else:
-            print('you entered an invalid charachter')
+            print('You entered an invalid charachter')
             confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
     elif yourOption == 1:
-        print(usedIphoneSheet['D19'].value)
+        MenuBorder.border('*')
+        print('\t\t    🗄 Storage Sizes 🗄:\n')
+        for key, value in StorageSizes._iPhone7Storage.items():
+            print('\t\t   ', key, ':', value)
+        MenuBorder.border('*')
+        storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
+        if storageOption == 1:
+            MenuBorder.border('*') 
+            print('\t\t     🔧  Grade Options 🔧 :\n')
+            for key, value in gradeOptions.items():
+                print('\t\t   ', key, ':', value)
+            MenuBorder.border('*')
+
 
 
 
