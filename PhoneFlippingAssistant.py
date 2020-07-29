@@ -99,15 +99,6 @@ class AverageSalePrice():
     _iPhone11PromaxUL256GbAverage = usedIphoneSheet['C108'].value #Cell position for an average price of a 256Gb unlocked iPhone 11 Pro Max
     _iPhone11ProL512GbAverage = usedIphoneSheet['C109'].value #Cell position for an average price of a 512Gb unlocked iPhone 11 pro Max 
 
-
-
-
-
-
-
-
-
-
 #This is a class that stores the cell positions for the phone prices 
 class CellPositions():
     #Unlocked & Locked iPhone 7 Prices
@@ -559,7 +550,7 @@ class CellPositions():
    _iPhone11ProL512GbCLow = usedIphoneSheet['I100'].value #Cell position for C Grade Low of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbDHigh = usedIphoneSheet['J100'].value #Cell position for D Grade High of a locked iPhone 11 Pro 512Gb
    _iPhone11ProL512GbDLow = usedIphoneSheet['K100'].value #Cell position for D Grade Low of a locked iPhone 11 Pro 512Gb
-   #Unlocked and Locked iPhone 11 Pro Prices
+   #Unlocked and Locked iPhone 11 Pro Max Prices
    #
    _iPhone11ProMax64GbAHigh = usedIphoneSheet['D104'].value #Cell position for A Grade High of a unlocked iPhone 11 Pro Max 64Gb
    _iPhone11ProMax64GbALow = usedIphoneSheet['E104'].value #Cell position for A Grade Low of a unlocked iPhone 11 Pro Max 64Gb
@@ -609,6 +600,21 @@ class CellPositions():
    _iPhone11ProMaxL512GbCLow = usedIphoneSheet['I109'].value #Cell position for C Grade Low of a locked iPhone 11 Pro Max 512Gb
    _iPhone11ProMaxL512GbDHigh = usedIphoneSheet['J109'].value #Cell position for D Grade High of a locked iPhone 11 Pro Max 512Gb
    _iPhone11ProMaxL512GbDLow = usedIphoneSheet['K109'].value #Cell position for D Grade Low of a locked iPhone 11 Pro Max 512Gb
+
+#This is a class that stores each phones storage sizes
+class StorageSizes():
+    _iPhone7Storage = {1: '32GB', 2: '128GB', 3: '256GB'}
+    _iPhone7PlusStorage = {1: '32GB', 2: '128GB', 3: '256GB'}
+    _iPhone8Storage = {1: '64GB', 2: '256GB'}
+    _iPhone8PlusStorage = {1: '64GB', 2: '256GB'}
+    _iPhoneXStorage = {1: '64GB', 2: '256GB'}
+    _iPhoneXrStorage = {1: '64GB', 2: '128GB', 3: '256GB'}
+    _iPhoneXsStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
+    _iPhoneXSMaxStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
+    _iPhone11Storage = {1: '64GB', 2: '128GB', 3: '256GB'}
+    _iPhone11ProStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
+    _iPhone11ProMaxStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
+
 
 #Main Source Code 
 supportedPhones = {0: 'Grading Scale 📝', 1: 'iPhone 7 📱', 2: 'iPhone 7 Plus 📱', 3: 'iPhone 8 📱', 4: 'iPhone 8 Plus 📱', 5: 'iPhone X 📱', 6: 'iPhone XR 📱', 7: 'iPhone XS 📱', 8: 'iPhone XS Max 📱', 9: 'iPhone 11 📱', 10: 'iPhone 11 Pro 📱', 11: 'iPhone 11 Pro Max 📱'} #list of phones to choose from
