@@ -1182,7 +1182,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
         else:
             print('You entered an invalid charachter')
             confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
-  
+  #
         
 
 
