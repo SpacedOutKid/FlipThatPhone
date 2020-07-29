@@ -1169,7 +1169,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
         while phonePrice == False: #loop so the user can continue with the phone without resetting program
             MenuBorder.border('*')
             print('\t\t 🗄 Storage Sizes🗄 :\n')
-            for key, value in StorageSizes._iPhone7Storage.items():
+            for key, value in StorageSizes._iPhone7PlusStorage.items():
                 print('\t\t   ', key, ':', value)
             MenuBorder.border('*')
             storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
@@ -1681,7 +1681,352 @@ while phoneOption == False: #loop for the program to stay in so the user can con
     #
     #
     #
-    #iPhone 8 Plus Option
+    #iPhone 8 Option
+    elif yourOption == 3:
+        phonePrice = False #loop vairable
+        while phonePrice == False: #loop so the user can continue with the phone without resetting program
+            MenuBorder.border('*')
+            print('\t\t 🗄 Storage Sizes🗄 :\n')
+            for key, value in StorageSizes._iPhone8Storage.items():
+                print('\t\t   ', key, ':', value)
+            MenuBorder.border('*')
+            storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
+            #iPhone 8 64GB Option
+            if storageOption == 1: 
+                MenuBorder.border('*') 
+                print('\t\t 📡 Carrier Options 📡:\n') #Displays the carrier options for the user to select if it is unlocked or locked 
+                for key, value in carrier.items(): #prints the carrier options in the dict
+                    print('\t\t   ', key, ':', value)
+                MenuBorder.border('*')
+                #iPhone 8 64GB Unlocked Option
+                carrierOption = eval(input('\nEnter the number cooresponding to if the phone is carrier unlocked or locked: ')) #user selecets carrier option
+                if carrierOption ==1: #carrier unlocked options
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 64GB Unlocked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Unlocked 64GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL64GbAHigh}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8UL64GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb Unlocked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Unlocked 64GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL64GbBHigh}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8UL64GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb Unlocked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Unlocked 64GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL64GbCHigh}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8UL64GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb Unlocked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Unlocked 64GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL64GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8UL64GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                #iPhone 8 64GB Locked Option
+                elif carrierOption == 2: 
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8, 64GB locked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 locked 64GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8L64GbAHigh}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8L64GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb locked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 locked 64GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8L64GbBHigh}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8L64GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb locked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 7 locked 64GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8L64GbCHigh}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8L64GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 64Gb locked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 locked 64GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8L64GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8L64GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+            #iPhone 8 256Gb Option
+            elif storageOption == 2: 
+                MenuBorder.border('*') 
+                print('\t\t 📡 Carrier Options 📡:\n') #Displays the carrier options for the user to select if it is unlocked or locked 
+                for key, value in carrier.items(): #prints the carrier options in the dict
+                    print('\t\t   ', key, ':', value)
+                MenuBorder.border('*')
+                #iPhone 8 256GB Unlocked Option
+                carrierOption = eval(input('\nEnter the number cooresponding to if the phone is carrier unlocked or locked: ')) #user selecets carrier option
+                if carrierOption ==1: #carrier unlocked options
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 256GB Unlocked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Unlocked 256GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL256GbAHigh}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8UL256GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 256Gb Unlocked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Unlocked 256GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL256GbBHigh}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8UL256GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 256Gb Unlocked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Unlocked 256GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL256GbCHigh}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8UL256GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 256Gb Unlocked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Unlocked 256GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL256GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8UL256GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                #iPhone 8 256GB Locked Option
+                elif carrierOption == 2: 
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 256GB locked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 locked 256GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8L256GbAHigh}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8L256GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 256Gb locked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 locked 256GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8L256GbBHigh}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8L256GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8, 256Gb locked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 locked 256GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8L256GbCHigh}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone7L256GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 256Gb locked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 locked 256GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8L256GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8L256GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
 
 
 
