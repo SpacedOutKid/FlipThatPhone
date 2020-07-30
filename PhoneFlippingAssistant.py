@@ -268,7 +268,7 @@ class CellPositions():
    _iPhone8PlusL64GbDLow = usedIphoneSheet['K46'].value #Cell position for D Grade Low of an iPhone 8 Plus locked 64Gb
    _iPhone8PlusL256GbAHigh = usedIphoneSheet['D47'].value #Cell position for A Grade High of a iPhone 8 Plus locked 256Gb
    _iPhone8PlusL256GbALow = usedIphoneSheet['E47'].value #Cell position for A Grade Low of a iPhone 8 Plus locked 256Gb
-   _iPhone8L256GbBHigh = usedIphoneSheet['F47'].value #Cell position for B Grade High of a iPhone 8 Plus locked 256Gb
+   _iPhone8PlusL256GbBHigh = usedIphoneSheet['F47'].value #Cell position for B Grade High of a iPhone 8 Plus locked 256Gb
    _iPhone8PlusL256GbBLow= usedIphoneSheet['G47'].value #Cell position for B Grade Low of a iPhone 8 Plus locked 256Gb
    _iPhone8PlusL256GbCHigh = usedIphoneSheet['H47'].value #Cell position for C Grade High of an iPhone 8 Plus locked 256Gb
    _iPhone8PlusL256GbCLow= usedIphoneSheet['I47'].value #Cell position for C Grade Low of an iPhone 8 Plus locked 256Gb
@@ -681,7 +681,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Unlocked 32GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL32GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL32GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL32GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7UL32GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -699,7 +699,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Unlocked 32GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL32GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL32GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL32GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7UL32GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -717,7 +717,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 32GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL32GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL32GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL32GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7UL32GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -735,7 +735,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 32GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL32GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL32GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL32GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7UL32GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -761,7 +761,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 locked 32GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L32GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7L32GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7L32GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7L32GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -779,7 +779,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 locked 32GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L32GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7L32GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7L32GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7L32GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -797,7 +797,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 32GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L32GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7L32GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7L32GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7L32GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -815,7 +815,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 32GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L32GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7L32GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7L32GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7L32GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -849,7 +849,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Unlocked 128GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL128GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL128GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL128GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7UL128GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -867,7 +867,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Unlocked 128GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL128GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL128GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL128GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7UL128GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -885,7 +885,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 128GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL128GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL128GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL128GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7UL128GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -903,7 +903,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 128GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL128GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL128GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL128GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7UL128GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -929,7 +929,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 locked 128GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L128GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7L128GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7L128GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7L128GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -947,7 +947,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 locked 128GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L128GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7L128GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7L128GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7L128GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -965,7 +965,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 128GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L128GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7L128GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7L128GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7L128GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -983,7 +983,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 128GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L128GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7L128GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7L128GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7L128GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1017,7 +1017,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Unlocked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7UL256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7UL256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1035,7 +1035,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Unlocked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7UL256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7UL256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1053,7 +1053,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL256GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7UL256GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7UL256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1071,7 +1071,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Unlocked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7UL256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7UL256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7UL256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1097,7 +1097,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 locked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7L256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7L256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7L256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1115,7 +1115,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 locked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7L256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7L256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7L256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1133,7 +1133,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7L256GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7L256GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7L256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1151,7 +1151,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 locked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7L256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7L256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7L256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7L256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1195,7 +1195,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus Unlocked 32GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL32GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL32GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL32GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusUL32GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1213,7 +1213,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus Unlocked 32GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL32GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL32GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL32GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusUL32GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1231,7 +1231,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 32GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL32GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL32GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL32GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusUL32GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1249,7 +1249,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 32GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL32GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL32GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL32GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusUL32GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1275,7 +1275,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus locked 32GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL32GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL32GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL32GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusL32GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1293,7 +1293,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus locked 32GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL32GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL32GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL32GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusL32GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1311,7 +1311,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus locked 32GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL32GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL32GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL32GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusL32GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1329,7 +1329,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus locked 32GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL32GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL32GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL32GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusL32GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1363,7 +1363,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus Unlocked 128GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL128GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL128GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL128GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusUL128GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1381,7 +1381,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus Unlocked 128GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL128GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL128GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL128GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusUL128GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1399,7 +1399,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 128GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL128GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL128GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL128GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusUL128GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1417,7 +1417,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 128GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL128GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL128GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL128GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusUL128GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1443,7 +1443,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus locked 128GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL128GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL128GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL128GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusL128GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1461,7 +1461,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus locked 128GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL128GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL128GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL128GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusL128GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1479,7 +1479,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus locked 128GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL128GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL128GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL128GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusL128GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1497,7 +1497,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus locked 128GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL128GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL128GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL128GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusL128GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1531,7 +1531,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus Unlocked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusUL256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusUL256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1549,7 +1549,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus Unlocked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusUL256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusUL256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1567,7 +1567,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL256GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusUL256GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusUL256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1585,7 +1585,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus Unlocked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusUL256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusUL256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusUL256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1611,7 +1611,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 7 Plus locked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone7PlusL256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone7PlusL256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1629,7 +1629,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 7 Plus locked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone7PlusL256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone7PlusL256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1647,7 +1647,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Pluslocked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL256GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone7PlusL256GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone7PlusL256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1665,7 +1665,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 7 Plus locked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone7PlusL256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone7PlusL256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone7PlusL256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1677,10 +1677,6 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         else:
                             print('\nYou entered an invalid charachter')
                             choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper() 
-    #
-    #
-    #
-    #
     #iPhone 8 Option
     elif yourOption == 3:
         phonePrice = False #loop vairable
@@ -1713,7 +1709,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 8 Unlocked 64GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL64GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL64GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone8UL64GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1731,7 +1727,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 8 Unlocked 64GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL64GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL64GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone8UL64GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1749,7 +1745,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 Unlocked 64GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL64GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL64GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone8UL64GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1767,7 +1763,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 Unlocked 64GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL64GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL64GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL64GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone8UL64GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1793,7 +1789,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 8 locked 64GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone8L64GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8L64GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone8L64GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1811,7 +1807,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 8 locked 64GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone8L64GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8L64GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone8L64GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1827,9 +1823,9 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                     elif phoneCondition == 3:
                         MoneyBorder.border('self') #Border from the Money Border class
                         print('\n')
-                        print('\t    📱iPhone 7 locked 64GB C Grade📱')
+                        print('\t    📱iPhone Plus locked 64GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone8L64GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8L64GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone8L64GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1847,7 +1843,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 locked 64GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L64GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone8L64GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8L64GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone8L64GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1881,7 +1877,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 8 Unlocked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8UL256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone8UL256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1899,7 +1895,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 8 Unlocked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8UL256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone8UL256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1917,7 +1913,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 Unlocked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL256GbCHigh}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8UL256GbCHigh:,.2f}')
                         print(f'\t      C Grade Low: ${CellPositions._iPhone8UL256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1935,7 +1931,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 Unlocked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8UL256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8UL256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone8UL256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1961,7 +1957,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t   📱iPhone 8 locked 256GB A Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
-                        print(f'\t      A Grade High: ${CellPositions._iPhone8L256GbAHigh}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8L256GbAHigh:,.2f}')
                         print(f'\t      A Grade Low: ${CellPositions._iPhone8L256GbALow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1979,7 +1975,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t     📱iPhone 8 locked 256GB B Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
-                        print(f'\t      B Grade High: ${CellPositions._iPhone8L256GbBHigh}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8L256GbBHigh:,.2f}')
                         print(f'\t      B Grade Low: ${CellPositions._iPhone8L256GbBLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
@@ -1997,8 +1993,8 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 locked 256GB C Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
-                        print(f'\t      C Grade High: ${CellPositions._iPhone8L256GbCHigh}')
-                        print(f'\t      C Grade Low: ${CellPositions._iPhone7L256GbCLow:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8L256GbCHigh:,.2f}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8L256GbCLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
                         choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
@@ -2015,8 +2011,359 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         print('\n')
                         print('\t    📱iPhone 8 locked 256GB D Grade📱')
                         print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8L256GbAverage:,.2f}')
-                        print(f'\t      D Grade High: ${CellPositions._iPhone8L256GbDHigh}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8L256GbDHigh:,.2f}')
                         print(f'\t      D Grade Low: ${CellPositions._iPhone8L256GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+    #
+    #
+    #
+    #
+    #
+    #iPhone 8 Plus Option
+    elif yourOption == 4:
+        phonePrice = False #loop vairable
+        while phonePrice == False: #loop so the user can continue with the phone without resetting program
+            MenuBorder.border('*')
+            print('\t\t 🗄 Storage Sizes🗄 :\n')
+            for key, value in StorageSizes._iPhone8PlusStorage.items():
+                print('\t\t   ', key, ':', value)
+            MenuBorder.border('*')
+            storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
+            #iPhone 8 Plus 64GB Option
+            if storageOption == 1: 
+                MenuBorder.border('*') 
+                print('\t\t 📡 Carrier Options 📡:\n') #Displays the carrier options for the user to select if it is unlocked or locked 
+                for key, value in carrier.items(): #prints the carrier options in the dict
+                    print('\t\t   ', key, ':', value)
+                MenuBorder.border('*')
+                #iPhone 8 Plus 64GB Unlocked Option
+                carrierOption = eval(input('\nEnter the number cooresponding to if the phone is carrier unlocked or locked: ')) #user selecets carrier option
+                if carrierOption ==1: #carrier unlocked options
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 Plus 64GB Unlocked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Plus Unlocked 64GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL64GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8PlusUL64GbAHigh:,.2f}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8PlusUL64GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb Unlocked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Plus Unlocked 64GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL64GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8PlusUL64GbBHigh:,.2f}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8PlusUL64GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb Unlocked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus Unlocked 64GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL64GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8PlusUL64GbCHigh:,.2f}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8PlusUL64GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb Unlocked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus Unlocked 64GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL64GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8PlusUL64GbDHigh:,.2f}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8PlusUL64GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                #iPhone 8  Plus 64GB Locked Option
+                elif carrierOption == 2: 
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 Plus, 64GB locked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Plus locked 64GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL64GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8PlusL64GbAHigh:,.2f}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8PlusL64GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb locked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Plus locked 64GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL64GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8PlusL64GbBHigh:,.2f}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8PlusL64GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb locked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus locked 64GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL64GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8PlusL64GbCHigh:,.2f}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8PlusL64GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 64Gb locked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus locked 64GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL64GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8PlusL64GbDHigh:,.2f}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8PlusL64GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+            #iPhone 8 Plus 256Gb Option
+            elif storageOption == 2: 
+                MenuBorder.border('*') 
+                print('\t\t 📡 Carrier Options 📡:\n') #Displays the carrier options for the user to select if it is unlocked or locked 
+                for key, value in carrier.items(): #prints the carrier options in the dict
+                    print('\t\t   ', key, ':', value)
+                MenuBorder.border('*')
+                #iPhone 8 Plus 256GB Unlocked Option
+                carrierOption = eval(input('\nEnter the number cooresponding to if the phone is carrier unlocked or locked: ')) #user selecets carrier option
+                if carrierOption ==1: #carrier unlocked options
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 Plus 256GB Unlocked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Plus Unlocked 256GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL256GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8PlusUL256GbAHigh:,.2f}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8PlusUL256GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus 256Gb Unlocked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Plus Unlocked 256GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL256GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8PlusUL256GbBHigh:,.2f}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8PlusUL256GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus 256Gb Unlocked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus Unlocked 256GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL256GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8PlusUL256GbCHigh}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8PlusUL256GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus 256Gb Unlocked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus Unlocked 256GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusUL256GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8PlusUL256GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8PlusUL256GbDLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                #iPhone 8 Plus 256GB Locked Option
+                elif carrierOption == 2: 
+                    MenuBorder.border('*') 
+                    print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
+                    for key, value in gradeOptions.items():#displays the grading options for the user to select
+                        print('\t\t   ', key, ':', value)
+                    MenuBorder.border('*')
+                    phoneCondition = eval(input('Enter the number for the condition of the phone based on the grading scale: '))
+                    #iPhone 8 Plus 256GB locked A Grade Option
+                    if phoneCondition == 1:
+                        MoneyBorder.border('self')
+                        print('\n')
+                        print('\t   📱iPhone 8 Plus locked 256GB A Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL256GbAverage:,.2f}')
+                        print(f'\t      A Grade High: ${CellPositions._iPhone8PlusL256GbAHigh}')
+                        print(f'\t      A Grade Low: ${CellPositions._iPhone8PlusL256GbALow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('You entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 256Gb locked B Grade  Option      
+                    elif phoneCondition == 2:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t     📱iPhone 8 Plus locked 256GB B Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL256GbAverage:,.2f}')
+                        print(f'\t      B Grade High: ${CellPositions._iPhone8PlusL256GbBHigh:,.2f}')
+                        print(f'\t      B Grade Low: ${CellPositions._iPhone8PlusL256GbBLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 Plus, 256Gb locked C Grade  Option      
+                    elif phoneCondition == 3:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus locked 256GB C Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL256GbAverage:,.2f}')
+                        print(f'\t      C Grade High: ${CellPositions._iPhone8PlusL256GbCHigh:,.2f}')
+                        print(f'\t      C Grade Low: ${CellPositions._iPhone8PlusL256GbCLow:,.2f}')
+                        MoneyBorder.border('self')
+                        print('\n')
+                        choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
+                        if choice == 'Y': 
+                            phonePrice = False
+                        elif choice == 'N':
+                            phonePrice = True
+                        else:
+                            print('\nYou entered an invalid charachter')
+                            choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
+                    #iPhone 8 256Gb locked D Grade  Option      
+                    elif phoneCondition == 4:
+                        MoneyBorder.border('self') #Border from the Money Border class
+                        print('\n')
+                        print('\t    📱iPhone 8 Plus locked 256GB D Grade📱')
+                        print(f'\t\t\n              Average Sales Price: ${AverageSalePrice._iPhone8PlusL256GbAverage:,.2f}')
+                        print(f'\t      D Grade High: ${CellPositions._iPhone8PlusL256GbDHigh}')
+                        print(f'\t      D Grade Low: ${CellPositions._iPhone8PlusL256GbDLow:,.2f}')
                         MoneyBorder.border('self')
                         print('\n')
                         choice = input('\nWould you like to try differnt options for this phone? Enter a Y for yes or an N for no: ').upper() #Option to see if the user would like to continue 
@@ -2033,17 +2380,16 @@ while phoneOption == False: #loop for the program to stay in so the user can con
 
 
 
-
-        #Confirmation message to either continue the program or quit it
-        confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
-        if confirmationMesage == 'Y':
-            phoneOption = False
-        elif confirmationMesage == 'N':
-            print('\nThank you for using this program❗️')
-            phoneOption = True
-        else:
-            print('You entered an invalid charachter')
-            confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
+#Confirmation message to either continue the program or quit it
+confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
+if confirmationMesage == 'Y':
+    phoneOption = False
+elif confirmationMesage == 'N':
+    print('\nThank you for using this program❗️')
+    phoneOption = True
+else:
+    print('You entered an invalid charachter')
+    confirmationMesage = input('\nWould you like to check another phone? Enter Y for yes or an N for no: ').upper()
   ##
         
 
