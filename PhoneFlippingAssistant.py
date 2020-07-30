@@ -616,8 +616,8 @@ class StorageSizes():
     _iPhone8Storage = {1: '64GB', 2: '256GB'}
     _iPhone8PlusStorage = {1: '64GB', 2: '256GB'}
     _iPhoneXStorage = {1: '64GB', 2: '256GB'}
-    _iPhoneXrStorage = {1: '64GB', 2: '128GB', 3: '256GB'}
-    _iPhoneXsStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
+    _iPhoneXRStorage = {1: '64GB', 2: '128GB', 3: '256GB'}
+    _iPhoneXSStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
     _iPhoneXSMaxStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
     _iPhone11Storage = {1: '64GB', 2: '128GB', 3: '256GB'}
     _iPhone11ProStorage = {1: '64GB', 2: '256GB', 3: '512GB'}
@@ -2375,7 +2375,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
         while phonePrice == False: #loop so the user can continue with the phone without resetting program
             MenuBorder.border('*')
             print('\t\t 🗄 Storage Sizes🗄 :\n')
-            for key, value in StorageSizes._iPhone8Storage.items():
+            for key, value in StorageSizes._iPhoneXStorage.items():
                 print('\t\t   ', key, ':', value)
             MenuBorder.border('*')
             storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
@@ -2721,7 +2721,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
         while phonePrice == False: #loop so the user can continue with the phone without resetting program
             MenuBorder.border('*')
             print('\t\t 🗄 Storage Sizes🗄 :\n')
-            for key, value in StorageSizes._iPhone7Storage.items():
+            for key, value in StorageSizes._iPhoneXRStorage.items():
                 print('\t\t   ', key, ':', value)
             MenuBorder.border('*')
             storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
@@ -3149,7 +3149,7 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         else:
                             print('\nYou entered an invalid charachter')
                             choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper()
-                #iPhone 7 256GB Locked Option
+                #iPhone XR 256GB Locked Option
                 elif carrierOption == 2: 
                     MenuBorder.border('*') 
                     print('\t\t  🔧Grade Options🔧:\n') #displays the grading option title
@@ -3229,17 +3229,13 @@ while phoneOption == False: #loop for the program to stay in so the user can con
                         else:
                             print('\nYou entered an invalid charachter')
                             choice = input('\nWould you like to try different options for this phone? Enter a Y for yes or an N for no: ').upper() 
-#
-#
-#
-#
  #iPhone XS Option
     elif yourOption == 7:
         phonePrice = False #loop vairable
         while phonePrice == False: #loop so the user can continue with the phone without resetting program
             MenuBorder.border('*')
             print('\t\t 🗄 Storage Sizes🗄 :\n')
-            for key, value in StorageSizes._iPhone7Storage.items():
+            for key, value in StorageSizes._iPhoneXSStorage.items():
                 print('\t\t   ', key, ':', value)
             MenuBorder.border('*')
             storageOption = eval(input('\nEnter the number of the storage size of the iPhone: '))
